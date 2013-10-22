@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int x, b, o, y, bl;
+
+	printf("Lutfen Bir Sayi Giriniz: \n");
+	scanf("%d", &x);
+
+	bl = (x / 1000) % 10;
+
+	printf("%d adet binlik sayi\n", bl);
+
+	y = (x / 100) % 10;
+
+	printf("%d adet yuzluk sayi\n", y);
+
+	o = (x / 10) % 10;
+
+	printf("%d adet onluk sayi\n", o);
+
+	b = (x / 1) % 10;
+
+	printf("%d adet birlik sayi vardir.", b);
+	
+	_getche();
+
+
+
+}
